@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>MATH-M Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>MATH-M Quiz</h1>
+        <div id="timer">Time Left: <span id="time">120:00</span></div>
+    </header>
+    <main id="quiz">
+        <div class="question">
+            1. What is 5 + 3?
+            <input type="text" id="q1" required>
+        </div>
+        <div class="question">
+            2. What is the square root of 16?
+            <input type="text" id="q2" required>
+        </div>
+        <button id="submit">Submit</button>
+    </main>
+    <div id="results" style="display: none;">
+        <h2>Your Results</h2>
+        <p id="score"></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 MATH-M</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
